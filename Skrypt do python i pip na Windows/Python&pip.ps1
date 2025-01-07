@@ -7,3 +7,6 @@ Start-Process -FilePath $destination -ArgumentList "/quiet InstallAllUsers=1 Pre
 Invoke-WebRequest https://bootstrap.pypa.io/get-pip.py -OutFile get-pip.py
 python --version
 pip --version
+pip install requests
+pip install --upgrade certifi
+C:/Users/Uczen/AppData/Local/Programs/Python/Python312/Scripts/pip install mailtm
