@@ -10,3 +10,4 @@ pip --version
 pip install requests
 pip install --upgrade certifi
 C:/Users/Uczen/AppData/Local/Programs/Python/Python312/Scripts/pip install mailtm
+# Ogarnij jak zainstalować openssl a potem się baw w cokolwiek innego bo jestem wkurwiony
