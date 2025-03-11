@@ -1,0 +1,17 @@
+
+import nopecha
+import time
+def captcha_solve():
+    nopecha.api_key = 'b5nbvj2pdvvi2ih97'
+
+    # Call the Token API
+    token = nopecha.Token.solve(
+        type='recaptcha2',
+        sitekey='6Ley0gcaAAAAABVSBf1QCyxDzW9SpZqcRAJ8jkin',
+        url='https://www.dominospizza.pl',
+        timeout=30
+    )
+    
+    return token
+
+print(captcha_solve())
